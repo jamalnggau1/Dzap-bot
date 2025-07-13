@@ -29,7 +29,7 @@ Script Python ini menjalankan **swap otomatis token MON** ke beberapa token lain
 
 Jalankan script:
 ```bash
-python tai.py
+python main.py
 ```
 
 Masukkan:
@@ -41,25 +41,6 @@ Script akan:
 2. Swap kembali 50% dari token tersebut ke MON.
 3. Lanjut ke wallet berikutnya.
 4. Setelah selesai semua wallet, script **pause 6 jam** dan mengulang otomatis jika saldo cukup.
-
-## 📦 Token Address
-
-| Token | Address |
-|-------|---------|
-| MON (native) | `0x0000000000000000000000000000000000000000` |
-| WSOL | `0x5387C85A4965769f6B0Df430638a1388493486F1` |
-| DAK  | `0x0F0BDEbF0F83cD1EE3974779Bcb7315f9808c714` |
-| ETH  | `0x836047a99e11F376522B447bffb6e3495Dd0637c` |
-| YAKI | `0xfe140e1dCe99Be9F4F15d657CD9b7BF622270C50` |
-| CHOG | `0xE0590015A873bF326bd645c3E1266d4db41C4E6B` |
-
-## 🔗 Jaringan & Router
-
-- **RPC Monad Testnet:**  
-  `https://testnet-rpc.monad.xyz`
-
-- **DZap Router Address:**  
-  `0x00000000009726632680FB07Ddc7c4D5793BfE4F`
 
 ## ❗Catatan
 
